@@ -14,8 +14,7 @@ ENDCLASS.
 CLASS zcl_hello_world_007 IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-
-
+    out->write( 'Hello BTP ABAP!' ).
   ENDMETHOD.
 
 ENDCLASS.
